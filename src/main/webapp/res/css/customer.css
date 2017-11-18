@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.edge{
+    width: 95%;
+    border: 3px solid #666;
+    padding: 0px;
+}
+
+table{
+    margin: 2.5%;
+    width: 95%;
+    border-collapse: collapse;
+    border: 2px solid #999;
+    
+}
+
+table th, td{
+    border: 1px solid #999;
+    padding: 10px;
+    
+}
+
+table th{
+    background-color: #FBF2EF;
+}
+
+h1{
+    margin: 3%;
+    margin-bottom: 0;
+}
+
+.roomcost td{
+    text-align: right;
+}
+
+span{
+	margin: 2.5%;
+}
+
+.roomcost td{
+	text-align: center;
+}

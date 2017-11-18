@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* 공통적으로 적용할 속성을 정의 */
+/* 영역 비율 */
+.area-10{ width:10%; }
+.area-20{ width:20%; }
+.area-30{ width:30%; }
+.area-40{ width:40%; }
+.area-50{ width:50%; }
+.area-60{ width:60%; }
+.area-70{ width:70%; }
+.area-80{ width:80%; }
+.area-90{ width:90%; }
+.area-100{ width:100%; }
+
+
+/* 글자 크기 */
+.font-big{ font-size:2.5em; }
+.font-medium{ font-size:1.7em; }
+.font-small{ font-size: 1.2em; }
+.text-center{ text-align: center;}
+.text-right{ text-align:right;}
+
+/* 정렬 위치 */
+.inline{ display: inline-block; }
+.left{margin-left:0px; margin-right:auto;}
+.center{margin-left:auto; margin-right:auto;}
+.right{margin-right:0px; margin-left:auto;}
+
+/*줄 설정 */
+div.empty-row{
+    height: 30px;
+}
+div.row{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+/*폼 설정 */
+.form-input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+.form-input:focus{
+    border: 1px solid orange;
+}
+.fill{
+    width: auto !important;
+    flex-grow: 1;
+}
+.btn{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#form-btn{
+    font-size:20px;
+    padding:10px;
+    background-color:gray;
+    border:1px solid black;
+    color: white;
+}
+
+/* 좌측, 우측 정렬(div)*/
+div.inner-align-left{
+    display: flex;
+    flex-direction: row;
+}
+div.inner-align-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* 내용물을 가운데 정렬 */
+div.inner-align-center{
+    display: flex;
+    flex-direction: column;
+}
+.div-1200{
+	width:1200px;
+}
+.div-1100{
+	width:1100px;
+}
+.div-1000{
+	width:1000px;
+}
+.div-900{
+	width:900px;
+}
+.div-800{
+	width:800px;
+}
+.div-700{
+	width:700px;
+}
+.div-600{
+	width:600px;
+}
+
+input[type=button] {
+	cursor: pointer;
+}

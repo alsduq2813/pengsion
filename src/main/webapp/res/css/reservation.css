@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+
+table{
+    border: 1px solid #8F8A8A;
+    width: 100%;
+}
+.content{
+    /* margin-left: 20%;
+    margin-right: 10%; */
+    margin-top: 30px;
+    margin: 0px auto;
+    align-content: center;
+}
+.content .info1, .info2{
+   /*  margin-left: 10%; */
+}
+
+table th{
+    background-color: #EDEDEE;
+    border: 3px solid #EDEDEE;
+    
+    font-size: 1em;
+    width: 150px
+}
+
+.info2 input[type=text], select{
+    height: 30px;
+    width: 250px;
+    font-size: 1em;
+}
+
+input[type=radio]{
+	width:20px;
+	height:20px;
+	font-size:20px;
+}
+
+input[type=checkbox]{
+    width: 15px;
+}
+input[type=button]{
+    width: 150px;
+    height: 45px;
+    border: 3px solid #F61F34;
+    color: white;
+    background-color: #F61F34;
+    font-size: 1em;
+}
+input[type=submit]{
+	font-size:1em;
+}
+input[type=number]{
+    width: 60px;
+}
+
+input[type=submit]{
+    width: 150px;
+    height: 45px;
+    border: 3px solid #25821D;
+    color: white;
+    background-color: #25821D;
+}
+
+input[type=button]:hover, input[type=submit]:hover{
+    cursor: pointer;
+}
+.reservebtn, .ckd{
+    margin: 0px 25%;
+   
+    align-content: center;
+}
+
+.info2 td{
+    border: 1px solid #D9DCFE;
+    text-align:left;
+}
+table td{
+     margin-left: 30px;
+     text-align:center;
+}
+p{
+    /* margin-left: 15%; */
+}
+
+table span{
+    color: forestgreen;
+}

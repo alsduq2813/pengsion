@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* 개별적으로 적용할 속성을 정의 */
+            
+/* 테스트 코드 */
+div, header, footer, main, nav, aside, article, section{
+/*                border:1px dotted black;*/
+}
+
+/* 페이지 설정 */
+.page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+/* 검색창 nav */
+nav{
+    width:100%;
+    min-height:80px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+}
+nav form{
+    margin-top: 20px;
+}
+
+nav input{
+    
+    height: 50px;
+    margin: 0px 10px;
+    color: #333;
+    font-size: 1em;
+    padding-left: 12px;
+    
+}
+nav input[type=text]{
+    width: 30%;
+    
+}
+nav input[type=date]{
+    widows: 20%;
+}
+nav input[type=number]{
+    width: 10%;
+}
+nav input[type=submit]{
+    padding-left: 0px;
+    width: 20%;
+    border: 1px solid gray;
+    background-color: #37c0fb;
+    background-size: 30px;      
+    color: white;
+    border-radius: 10px;
+}
+
+.rogo img{
+	width: 110px;
+    height: 70px;
+    margin: 0px 20px;     
+}
+
+/* 중앙 영역 */
+main{
+    flex-grow:1;
+    min-height:500px;
+    margin: 5px 0px;
+}
+
+/* 홈페이지 사진*/
+main .swiper-container{
+    width: 1000px;
+    height: 300px;
+            }
+
+/* 하단 영역 */
+footer{
+    
+    width:100%;
+    min-height:50px;
+    text-align:center;
+    background-color: #333;
+    color: white;
+    
+    border-top:1px solid black;
+}
+
+/* 메뉴 관련된 style */
+header{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding:0.5em;
+    border-top:0em;
+    border-bottom:0em;
+}
+header .left{
+    margin-right: 1.5em;
+    margin-top: 1em;
+}
+header .right{
+    margin-left: auto;
+    margin-top: 1em;
+}
+header a{
+    font-size:25px;
+}
+.plus > a >i{
+    margin-top: 18px;
+}
+.plus> ul{
+    padding: 5px;
+    list-style: none;
+    display: none;
+    margin: 0;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.plus > ul > li{
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+.plus:hover ul{
+    display: block;
+    position: absolute;
+}
+
+/* 링크 스타일 */
+a:link, a:visited{
+    text-decoration: none;
+    color:gray;
+}
+a:hover{
+    color:darkgray;
+    
+}
+
+.active{
+	font-weight: bold;
+}
+
+.maintable{
+   border-radius:50px;
+} 
+.menu ul li a:hover{
+   color:red;
+}
+
+
+/* 사진 */
+ .gallary{
+                width:70%;
+                display:flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                
+            }
+            .gallary .image{
+                padding:10px;
+                width:20%;
+                flex-grow:1;
+/*                border:1px solid black;*/
+            }
+            .gallary .image img{
+                width:80%;
+                height:auto;
+            }
+
+            
+            @media screen and (max-width:960px){
+                .gallary .image{
+                    width:45%;
+                }
+            }
+/* 화면이 작아질 경우(800px 이하)에 대한 처리 */
+@media screen and (max-width: 800px){
+    .area-20, .area-30, .area-40, .area-50, .area-60, .area-70, .area-80, .area-90{
+        width: 100%;
+    }
+    header .hamberg{
+        display: block;
+    }
+    header{
+       /* flex-direction: column;*/
+    }
+    header .hamberg:focus ~a{
+        display: block;
+    }
+    header .hamberg ~a{
+        display: none;
+        margin: 10px 0px;
+    }
+    header 
+  
+}
+textarea{
+    resize: none; /* 크기 변경 불가! */
+}
+
+.active{
+    color:red;
+}
+
+/* Main CSS*/
+   
+        .topth {
+            width: 400px;
+            border: 0px;
+            text-align: left;
+        }
+        
+        .img {
+           
+            height: 200px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .midth{
+            border: 0px;
+            
+        }
+
+        .bottombtn{
+            border: 0px;
+        }
+        .btn{
+            border: 0px;
+            width: 250px;
+            background-color: lightgray;
+            color: black;
+        }
+
+
+
+
+
+@media screen and (max-width: 800px){
+    h1{
+          font-size: 1.5em;
+        
+    }
+    .font-big{
+        font-size: 1.7em;
+    }
+    .font-medium{
+        font-size: 1.2em
+        
+    }
+    .font-small{
+        font-size: 1em;
+        
+    }
+}

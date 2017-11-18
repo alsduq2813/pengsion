@@ -1,0 +1,213 @@
+.titleArea h2 {
+			display: inline-block;
+			padding: 0 0 0 12px;
+			color: #2e2e2e;
+			font-size: 16px;
+			background: url(http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_heading.gif) 0 2px no-repeat;
+		}
+
+		.titleArea {
+			min-height: 30px;
+			margin: 10px 0 20px;
+			border-bottom: 1px solid #e8e8e8;
+		}
+
+		.titleArea ul {
+			padding: 5px 0;
+			color: #939393;
+			line-height: 18px;
+		}
+
+		.titleArea ul li {
+			padding: 0 0 0 9px;
+			background: url(http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_info.gif) no-repeat 4px 7px;
+		}
+
+		li {
+			list-style: none;
+		}
+
+		.xans-member-findid {
+			border: 1px solid #d7d5d5;
+			padding: 30px 0;
+			color: #2e2e2e;
+		}
+
+		.xans-member-findid .findId {
+			width: 330px;
+			margin: 0 auto;
+		}
+
+		.xans-member-findid .findId h3 {
+			margin: 0 0 30px 0;
+			font-size: 20px;
+			text-align: center;
+		}
+
+		img,
+		fieldset {
+			border: none;
+			vertical-align: top;
+		}
+
+		legend {
+			visibility: hidden;
+			position: absolute;
+			left: -9999px;
+			top: -9999px;
+			width: 0;
+			height: 0;
+			line-height: 0;
+		}
+
+		.xans-member-findid .findId p {
+			margin: 7px 0 0;
+		}
+
+		.xans-member-findid .findId strong {
+			display: inline-block;
+			margin: 0 0 5px;
+			padding: 0 0 0 10px;
+			width: 110px;
+			font-weight: normal;
+			background: url(http://img.echosting.cafe24.com/skin/base_ko_KR/member/ico_login2.gif) no-repeat 0 4px;
+		}
+
+		.xans-member-findid .findId .member select {
+			width: 177px;
+		}
+
+		select {
+			height: 24px;
+			border: 1px solid #d5d5d5;
+		}
+
+		input,
+		select,
+		textarea {
+			font-size: 100%;
+			font-family: "µ¸¿ò", Dotum;
+			color: #353535;
+			vertical-align: middle;
+		}
+
+		.xans-member-findid .findId .check {
+			margin-bottom: 30px;
+			margin-left: 125px;
+			color: #353535;
+		}
+
+		.xans-member-findid .findId input[type=radio],
+		.xans-member-findid .findId input[type=checkbox] {
+			width: 13px;
+			height: 13px;
+			margin: 0 3px 0 0;
+			padding: 0;
+			border: 0;
+			vertical-align: -2px;
+		}
+
+		.xans-member-findid .findId input {
+			width: 170px;
+			height: 18px;
+			padding: 2px 2px 2px 3px;
+			border: 1px solid #d9d9d9;
+			color: #202020;
+		}
+
+		.xans-member-findid .findId .check label {
+			margin: 0 5px 0 0;
+		}
+
+		.xans-member-findid .findId #name,
+		.xans-member-findid .findId #email {
+			width: 170px;
+		}
+
+		.xans-member-findid .findId .button {
+			margin: 20px 0 0;
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+			color: #000;
+		}
+
+		.path {
+			overflow: hidden;
+			height: 30px;
+			line-height: 30px;
+		}
+
+		.path span {
+			overflow: hidden;
+			position: absolute;
+			width: 0;
+			height: 0;
+			white-space: nowrap;
+			text-indent: 100%;
+		}
+
+		.path ol {
+			float: right;
+		}
+
+		.path li:first-child {
+			background: none;
+		}
+
+		.path li {
+			float: left;
+			padding: 0 0 0 12px;
+			margin: 0 0 0 8px;
+			color: #757575;
+			background: url(http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_path.gif) no-repeat 0 10px;
+		}
+
+		.path li a {
+			color: #757575;
+		}
+
+		.path li strong,
+		.path li strong a {
+			color: #2e2e2e;
+		}
+
+		input,
+		textarea,
+		select,
+		button {
+			text-rendering: auto;
+			color: initial;
+			letter-spacing: normal;
+			word-spacing: normal;
+			text-transform: none;
+			text-indent: 0px;
+			text-shadow: none;
+			display: inline-block;
+			text-align: start;
+			margin: 0em;
+			font: 13.3333px Arial;
+		}
+
+		select:not(:-internal-list-box) {
+			overflow: visible !important;
+		}
+
+		#searchType {
+			display: flex;
+		}
+
+		.member {
+			display: flex;
+		}
+
+		.roll {
+			max-width: 736px;
+		}
+		
+		#btn_form {
+			border: 0;
+			background-color: white;
+		}

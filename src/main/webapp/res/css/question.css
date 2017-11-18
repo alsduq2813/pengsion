@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.qborder th{
+   text-align: left;
+}
+
+.qand tr th{
+   height: 40px;
+   size: 25px;
+}
+
+textarea{
+   height: 600px;
+}
+
+.answer tr th div{
+   margin-left: 60px;
+}
+
+.qborder [type=text]{
+    width: 100%;
+}
+.qborder textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.qborder [type=submit]{
+    margin-left: 45%;
+}

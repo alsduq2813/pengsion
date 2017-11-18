@@ -1,0 +1,111 @@
+table.type07 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+}
+table.type07 thead {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #e7708d;
+}
+table.type07 thead th {
+	width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: center;
+    color: #fff;
+    text-align: center;
+}
+table.type07 tbody th {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    background: #ec91a8;
+    color: #fff;
+    text-align: center;
+}
+table.type07 td {
+    padding: 10px;
+    vertical-align: center;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    background: #fff4f8;
+}
+
+
+table.type08 {
+    border-collapse: collapse;
+    line-height: 1.5;
+    border-left: 1px solid #ccc;
+    margin: 20px 10px;
+}
+
+table.type08 thead th {
+    padding: 10px;
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 2px solid #c00;
+    background: #dcdcd1;
+}
+
+table.type08 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #ececec;
+}
+table.type08 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align:center;
+}
+
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+}
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type09 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type09 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.season{
+	border-bottom : 1px solid #ccc !important;
+	max-width: 130px;
+}
+#rname_th {
+	min-width: 100px;	
+}
+#detail_th {
+	min-width:48px;
+}
+#guest_th{
+	min-width: 150px;	
+}
